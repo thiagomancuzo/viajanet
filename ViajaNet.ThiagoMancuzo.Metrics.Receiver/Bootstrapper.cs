@@ -14,7 +14,7 @@ namespace ViajaNet.ThiagoMancuzo.Metrics.Receiver
     {
         public static void Bootstrap(ContainerBuilder builder)
         {
-            builder.RegisterType<Class1>();
+            builder.RegisterType<Worker>();
             builder.RegisterType<SessionMetricsReadEventHandler>().As<IEventHandler<SessionMetricsReadEvent>>();
             builder.RegisterType<SessionMetricsReadEventHandler>();
         }

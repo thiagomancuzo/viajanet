@@ -5,10 +5,10 @@ using ViajaNet.ThiagoMancuzo.Metrics.Receiver.Sessions.Events;
 
 namespace ViajaNet.ThiagoMancuzo.Metrics.Receiver
 {
-    public class Class1
+    public class Worker
     {
         readonly IEventBus _bus;
-        public Class1(IEventBus bus)
+        public Worker(IEventBus bus)
         {
             _bus = bus;
         }

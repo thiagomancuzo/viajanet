@@ -17,7 +17,7 @@ namespace ViajaNet.ThiagoMancuzo.Metrics.Receiver.App
 
             using (var _scope = container.BeginLifetimeScope())
             {
-                var _svc = _scope.Resolve<Class1>();
+                var _svc = _scope.Resolve<Worker>();
                 _svc.Run();
                 Console.ReadLine();
             }

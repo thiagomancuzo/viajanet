@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoFac" Version="4.6.2" />
+    <PackageReference Include="Google.Apis.AnalyticsReporting.v4" Version="1.32.2.1136" />
+    <PackageReference Include="TweetinviAPI" Version="2.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ViajaNet.ThiagoMancuzo.Core\ViajaNet.ThiagoMancuzo.Core.csproj" />
+  </ItemGroup>
+
+</Project>

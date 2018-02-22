@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Couchbase.Extensions.DependencyInjection" Version="2.0.0" />
+    <PackageReference Include="CouchbaseNetClient" Version="2.5.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ViajaNet.ThiagoMancuzo.Core\ViajaNet.ThiagoMancuzo.Core.csproj" />
+    <ProjectReference Include="..\ViajaNet.ThiagoMancuzo.Metrics.Infra\ViajaNet.ThiagoMancuzo.Metrics.Infra.csproj" />
+  </ItemGroup>
+
+</Project>
